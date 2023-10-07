@@ -1,21 +1,31 @@
 .custom-navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     display: flex;
     
+    
   }
-  
+
+ 
   .custom-navbar .navbar-brand img {
-    margin-top: -1px;
+    margin-top: -3px;
   }
   
   .custom-navbar .nav-link {
     color: #ffffff;
-    margin-left: 15px;
+    margin-left: 150px;
+    margin-top: 19px;
+    
   }
   
   .custom-navbar .nav-link:hover {
     color: #007BFF;
+
   }
   
+  #LogIn {
+    background-color:black ;
+    border: rgb(136, 3, 3);
+
+  }

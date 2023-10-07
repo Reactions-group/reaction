@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import { FaBeer } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -16,7 +17,7 @@ function Footer() {
                 <a
                   href="mailto:support@example.com"
                   className="contact-link red"
-                >
+                > 
                   support@example.com
                 </a>
                 <a href="tel:0121234" className="contact-link">
@@ -26,7 +27,7 @@ function Footer() {
                   <ul>
                     <li>
                       <a href="#">
-                        <i className="fa fa-facebook"></i>
+                        <i className="fa fa-facebook" ></i>
                       </a>
                     </li>
                     <li>
