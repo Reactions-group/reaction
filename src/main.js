@@ -4,6 +4,8 @@ import AboutImage from './about.png';
 import './about.css';
 import './contact.css';
 import { useEffect , useState } from 'react';
+import './car.css' ;
+
 
 function Main() {
   const videoRef = useRef(null);

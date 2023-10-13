@@ -30,7 +30,7 @@ function Header() {
   <Image src={logoImage} alt="Logo" height="60" loading="lazy" />
 </Navbar.Brand>
             <Nav.Link href="#contact"><b>Contact Us</b></Nav.Link>
-            <Nav.Link href="#car"><b>Car</b></Nav.Link>
+            <Nav.Link href="/car"><b>Car</b></Nav.Link>
           </Nav>
         </Navbar.Collapse>
 
